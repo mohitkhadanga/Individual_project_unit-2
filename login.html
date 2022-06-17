@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+  font-family: "Shippori Mincho,Signika, sans-serif";
+}
+#special-font {
+  text-align: center;
+  font-family: "Redressed";
+  font-weight: 100;
+  padding-top: 10px;
+}
+#cont {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 500px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+#login {
+  width: 450px;
+  margin: auto;
+  position: absolute;
+  top: 14%;
+  left: 35%;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), -3px -3px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  text-align: center;
+}
+
+#login>h1
+{
+    font-family: sans-serif;
+}
+#login input {
+  width: 370px;
+  height: 25px;
+  cursor: pointer;
+  margin-top: 5px;
+  padding-left: 8px;
+  border: 0.5 px solid rgba(0, 0, 0, 0.3);
+}
+#login a {
+  text-decoration: none;
+}
+#footer div {
+  width: 85%;
+  
+  margin-left: 14%;
+  
+}
+#footer div div {
+  width: 15%;
+  float: left;
+  
+  margin-left: 5%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#footer div div p {
+  font-size: 18px;
+}
+#footer div div a {
+  text-decoration: none;
+}
+#footer div div a img {
+  margin-right: 6%;
+}
+
+.marginleft span {
+  
+  margin-left: 3%;
+}
+.padd {
+  
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/* Top most */
+body>div
+        {
+            height: 32px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+       #image1
+       {
+        height: 14px;
+        padding: 10px 24px;
+        border-bottom: 2px solid darkgreen;
+       }
+       img+div>p
+       {
+        padding: 10px 24px;
+       }
+       .topF
+       {
+        font-family: sans-serif;
+        font-weight: 650;
+        color: rgb(86, 85, 85);
+       }
+       .topB
+       {
+        font-family: sans-serif;
+        font-weight: 650;
+        color: rgb(176, 171, 171);
+       }
+      
+       /* Nav bar */
+
+       #navbar
+        {
+            height:66px;
+            
+            background-color: #FFFDF7;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #avatar>a>img
+        {
+            border: 1px solid #FFFDF7;;
+            height: 24px;
+            
+        }
+
+
+        #navbar>div:nth-child(2)
+        {
+            
+            width: 600px;
+            height: 66px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: sans-serif;
+            color: #333333;
+            text-decoration: none;
+        }
+        #navbar>div:nth-child(2)>a:hover
+        {
+            color: #2A6DFF;
+        }
+        #navbar>div:nth-child(2)>p:hover
+        {
+            color: #2A6DFF;
+        }
+        #navbar>div:nth-child(3)
+        {
+            
+            width: 220px;
+            height: 66px;
+            display: flex;
+            align-items: center;
+        }
+        #loginAndSignup
+        {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        #loginAndSignup>a>button
+        {
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: sans-serif;
+            color: #333333;
+            padding: 6px 10px;
+        }
+        #loginAndSignup>a>button:first-child
+        {
+            background-color: transparent;
+            border: 0;
+        }
+        #loginAndSignup>a>button:first-child:hover
+        {
+           
+            color: white;
+        }
+        #loginAndSignup>a>button:last-child
+        {
+            background-color: #3167FF;
+            color: white;
+            border: 0;
+        }
+        #loginAndSignup>a>button:last-child:hover
+        {
+            box-shadow: rgba(221, 190, 210, 0.4) -5px 5px, rgba(104, 103, 104, 0.3) -10px 10px, rgba(205, 195, 201, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -20px 20px;
+            margin-left: 1px;
+            margin-bottom: 2px;
+            color: white;
+        }
+    </style>
+
+  </head>
+  <body>
+
+    <!-- Top most -->
+    <div>  
+        
+        <img id="image1" src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="">
+        <div>
+        <p> <span class="topF">freshly</span><span class="topB">business</span></p>
+        </div>
+    </div>
+    
+    <!-- Nav Bar -->
+    <div id="navbar">
+        <!-- nav logo -->
+        <div id="avatar">
+            <a href="index.html">
+                <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" alt="">
+            </a>
+        </div>
+        <!-- nav mid -->
+        <div>
+           <a href="plans.html"> <p>Plans & Menu</p> </a> 
+            <p>How it Works</p>
+            <p>Gifts</p>
+            <p>Refer a Friend</p>
+            <p>Help</p>
+        </div>
+        <!-- login and sign up -->
+        <div id="loginAndSignup">
+          <a href="login.html"><button id="log">Login</button></a>  
+          <a href="signup.html"><button id="sig" >Sign Up</button></a>  
+        </div>
+    </div>
+
+    <div id="cont">
+        <h1 id="special-font">Account</h1>
+      <div id="login">
+        <h1>Log In</h1>
+        Email <br /><input id="email1" type="email" placeholder="you@domain.com" required />
+        <br />
+        <br />
+        Password <br /><input
+          type="password"
+          placeholder="Enter Password"
+          required
+        />
+        <br />
+        <br />
+        <input onclick="plansMenu()"
+          type="submit"
+          value="LOG IN"
+          style="border: none; color: white; background-color: #3167FF"
+        />
+        <br />
+        <p><a href="signup.html"> Forgot Password?</a></p>
+        <p>Don’t have an account? <a href="signup.html"> Get Started</a></p>
+      </div>
+    </div>
+    <section>
+        <footer id="footer">
+            <div>
+                <div>
+                    <br>
+                    <a href="#"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg" width="120px"></a><br>
+                    <p><span>&#169</span> Freshly Inc.</p>
+                </div>
+                <div>
+                <p>Company</p>
+                <a href="https://freshly.wd5.myworkdayjobs.com/freshly_careers">Careers</a><br><br>
+                <a href="https://www.freshly.com/contact">Contact Us</a><br><br>
+                <a href="https://about.freshly.com/press">Press</a><br><br>
+                <a href="https://www.freshly.com/terms">Terms</a><br><br>
+                <a href="https://about.freshly.com/privacy">Privacy</a><br><br>
+                </div>
+
+                <div>
+                    <p>Learn more</p>
+                    <a href="#">Plans & Menu</a><br><br>
+                    <a href="#">Why Freshly?</a><br><br>
+                    <a href="#">Gifts</a><br><br>
+                    <a href="#">FAQs</a><br><br>
+                    <a href="#">Blog</a><br><br>
+                    <a href="#">Students</a><br><br>
+                </div>
+
+                <div>
+                    <p>Join Us</p>
+
+                    <a href="https://www.facebook.com/freshly"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423bbc67c09879c5a19b_5d795c37fedbb6017d824b02_icons8-facebook-old-30.jpg" width="20px"></a><a href="https://www.instagram.com/freshly/"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423ad92101de48f410c7_5d10dfc0ef515f74b875a42c_icons8-instagram-50.jpg" width="20px"></a><a href="https://twitter.com/getfreshly"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423bd050163202b341e8_5d10dfc00442bfc99d3d6828_icons8-twitter-filled-50.jpg" width="20px"></a><a href="https://www.pinterest.com/FreshlyEats/"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423a6b26e039d505425e_5d10dfbfef515faad975a42b_icons8-pinterest-filled-50.jpg" width="20px"></a><br><br>
+                    
+    
+                    <a href="https://apps.apple.com/app/apple-store/id1195648107"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d6439d4fb92e7630e46976b_Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" width="120px"></a><br><br>
+                    <a href="https://play.google.com/store/apps/details?id=com.freshly.meal&utm_source=website&utm_campaign=footer&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d643dd558306bfe1df5ef8b_google-play-badge.png" width="120px"></a><br><br>
+                    
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    
+  </body>
+</html>
+
+<script>
+    function plansMenu() {
+  var email1 = document.getElementById("email1").value;
+  email1 = JSON.stringify(email1);
+ 
+  var email = localStorage.getItem("Email");
+ 
+  console.log(email, email1);
+  if (email == email1) {
+    alert("Login Successful");
+    window.location.href = "index.html";
+  } else {
+    alert("Incorrect Email address or Password");
+  }
+}
+</script>
+

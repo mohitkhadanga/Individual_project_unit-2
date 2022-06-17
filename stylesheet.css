@@ -1,0 +1,580 @@
+
+/* Top most */
+body>div
+        {
+            height: 32px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+       #image1
+       {
+        height: 14px;
+        padding: 10px 24px;
+        border-bottom: 2px solid darkgreen;
+       }
+       img+div>p
+       {
+        padding: 10px 24px;
+       }
+       .topF
+       {
+        font-family: sans-serif;
+        font-weight: 650;
+        color: rgb(86, 85, 85);
+       }
+       .topB
+       {
+        font-family: sans-serif;
+        font-weight: 650;
+        color: rgb(176, 171, 171);
+       }
+      
+       /* Nav bar */
+
+       #navbar
+        {
+            height:66px;
+            
+            background-color: #FFFDF7;
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+        
+        
+        #avatar>a>img
+        {
+            border: 1px solid #FFFDF7;;
+            height: 24px;
+            
+        }
+
+
+        #navbar>div:nth-child(2)
+        {
+            
+            width: 600px;
+            height: 66px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: sans-serif;
+            color: #333333;
+            text-decoration: none;
+        }
+        #navbar>div:nth-child(2)>a:hover
+        {
+            color: #2A6DFF;
+        }
+        #navbar>div:nth-child(2)>p:hover
+        {
+            color: #2A6DFF;
+        }
+        #navbar>div:nth-child(3)
+        {
+            
+            width: 220px;
+            height: 66px;
+            display: flex;
+            align-items: center;
+        }
+        #loginAndSignup
+        {
+            display: flex;
+            justify-content: center;
+            align-items:center;
+        }
+        #loginAndSignup>a>button
+        {
+            font-size: 14px;
+            font-weight: bolder;
+            font-family: sans-serif;
+            color: #333333;
+            padding: 6px 10px;
+        }
+        #loginAndSignup>a>button:first-child
+        {
+            background-color: transparent;
+            border: 0;
+        }
+        #loginAndSignup>a>button:first-child:hover
+        {
+           
+            color: white;
+        }
+        #loginAndSignup>a>button:last-child
+        {
+            background-color: #3167FF;
+            color: white;
+            border: 0;
+        }
+        #loginAndSignup>a>button:last-child:hover
+        {
+            box-shadow: rgba(221, 190, 210, 0.4) -5px 5px, rgba(104, 103, 104, 0.3) -10px 10px, rgba(205, 195, 201, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -20px 20px;
+            margin-left: 1px;
+            margin-bottom: 2px;
+            color: white;
+        }
+
+        /* Mid part Homepage */
+        .midSection
+        {
+            height: 650px;
+            width: 100%;
+            background-color: #FEF9EA;
+            
+        }
+        .midSection>div
+        {
+            width: 51%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+        .midSection>div:first-child
+        {
+            width: 49%;
+            
+        }
+        
+        .midSection>div>div>h1
+        {
+           font-size: 53px;
+           
+           font-family: sans-serif;
+           color: #333333;
+           width: 535px;
+        }
+        .midSection>div>div>h1+p
+        {
+            font-size: 20px;
+            font-family: sans-serif;
+            color: #333333;
+            font-weight: bold;
+        }
+        .info
+        {
+            display: flex;
+            justify-content: space-between;
+            
+            width: 385px;
+            font-size: 14px;
+            font-weight: bold;
+            font-family: sans-serif;
+            color: #333333;
+            
+        }
+       
+        .midSection>div>div>input
+        {
+            padding: 10px;
+            border: 0;
+            border-bottom: 1px solid gray;
+            width: 200px;
+        }
+        input+button
+        {
+            background-color: #3167FF;
+            color: white;
+            border: 0;
+            padding: 8px 16px 12px;
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        div>input+input+button+p
+        {
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+        .midSection>div+div>img
+        {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* How it works */
+        .midSection+h1
+        {
+            text-align: center;
+            font-size: 48px;
+            font-family: sans-serif;
+            color: #333333;
+            background-color: #FFFDF7;
+        }
+        .con
+        {
+            display: grid;
+            grid-template-columns: repeat(4,auto);
+            gap: 100px;
+            background-color: #FFFDF7;
+            
+        }
+        .con>div
+        {
+            
+            background-color: #FFFDF7;
+        }
+        .con>div>img+h2
+        {
+            font-size: 24px;
+            font-family: sans-serif;
+            text-align: center;
+            color: #333333;
+            
+        }
+        .con>div>img+h2+p
+        {
+            font-family: sans-serif;
+            text-align: center;
+            color: #333333;
+            
+
+        }
+        .con>div>img
+        {
+            width: 140px;
+            height: 144.81px;
+            padding: 60px;
+        }
+
+        /* onTheMenu Homepage */
+
+        #onTheMenu
+        {
+            height: 1247px;
+            width: 100%;
+            margin-top: 400px;
+            background-image: url("https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+        #onTheMenu>div
+        {
+           
+            
+           
+            background-color: white;
+            padding: 30px;
+            
+        }
+        #onTheMenu>div>h1
+        {
+            font-size: 48px;
+            font-family: sans-serif;
+            color: #333333;
+            line-height: 10px;
+        }
+        #onTheMenu>div>p
+        {
+            
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #333333;
+            width: 638px;
+            
+        }
+        #gridBox
+        {
+         
+            display: grid;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows: repeat(2,330px);
+            gap: 25px;
+            padding: 20px;
+            
+        }
+       
+        #gridBox>div>img
+        {
+            width: 100%;
+            border-radius: 10px;
+            width: 100%;
+            transition: 0.6s all ease-in-out;
+        }
+        #gridBox>div>img:hover
+        {
+            transform: scale(1.3);
+        }
+            
+        
+       
+        #gridBox>div>img+p
+        {
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: #303030;
+        }
+        #gridBox>div>img+p+div
+        {
+            font-size: 13px;
+            color: #357471;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #gridBox+div
+        {
+            height: 25.94px;
+            width: 95%;
+            
+            margin: auto;
+            padding: 4px;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: white;
+            background-color: #3167FF;
+            text-align: center;
+            font-size: 18px;
+            padding-top: 10px;
+            transition: 0.3s all ease-in-out;
+        }
+
+        #gridBox+div:hover
+        {
+            transform: scale(1.1);
+        }
+
+        #onTheMenu+div
+        {
+            
+           margin: auto;
+           margin-top: 100px;
+        }
+        #onTheMenu+div+h2
+        {
+            font-size: 38px;
+            font-family: sans-serif;
+            text-align: center;
+            color: #333333;
+        }
+
+        #onTheMenu+div+h2+div
+        {
+            width: 655px;
+            margin: auto;
+            font-size: 14px;
+            font-family: sans-serif;
+            color: #333333;
+            text-align: center;  
+        }
+        .price
+        {
+            color: #357471;
+            font-weight: bold;
+        }
+        .save
+        {
+            font-weight: bold; 
+        }
+        #savings
+        {
+            display: grid;
+            grid-template-columns: repeat(5,250px);
+            grid-template-rows: repeat(1,auto);
+            gap: 15px;
+            margin-top: 70px;
+        }
+        
+        #savings>div>img
+        {
+            width: 100%;
+        }
+        #savings>div>img+p
+        {
+            font-size: 28px;
+            font-family: sans-serif;
+            color: #357471;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+
+        #ship
+        {
+            text-align: center;
+            margin-top: 220px;
+            font-weight: bold;
+            font-size: 14px;
+            color: #357471;
+            font-family: sans-serif;
+            background-color: #FFFDF7;
+        }
+        #btn>a>button
+        {
+            background-color: #3167FF;
+            color: white;
+            border: 0;
+            padding: 10px 20px ;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 30px;
+            font-family: sans-serif;
+        }
+        #btn+h1
+        {
+            
+            font-size: 48px;
+            font-family: sans-serif;
+            color: #333333;
+            text-align: center;
+            line-height: 300px;
+        }
+        #whatOthersAreSaying
+        {
+            width: 78%;
+            height: 290px;
+            margin: auto;
+            
+            text-align: center;
+            background-color: #FFFDF7;
+            
+        }
+        #whatOthersAreSaying>div
+        {
+            width: 40%;
+            height: 100%;
+            
+            margin: auto;
+            
+        }
+        #whatOthersAreSaying>div>img
+        {
+            height: 26px;
+            width: 166.86px;
+            
+            margin: auto;
+           
+        }
+        #whatOthersAreSaying>div>img+h2
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #333333;
+            line-height: 50px;
+        }
+        #whatOthersAreSaying>div>img+h2+p
+        {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #333333;
+        }
+        #whatOthersAreSaying>div>img+h2+p+h3
+        {
+            font-family: sans-serif;
+        }
+
+        #moreInfo
+        {
+            display: grid;
+            grid-template-columns: repeat(2,50%);
+            grid-template-rows: repeat(1,auto);
+        }
+        #moreInfo>div
+        {
+            
+            background-color: #FFFDF7;
+        }
+        #moreInfo>div>h1
+        {
+            font-size: 48px;
+            font-family: sans-serif;
+            color: #333333;
+            width: 680px;
+        }
+        #moreInfo>div>h1+p
+        {
+            font-size: 18px;
+            font-family: sans-serif;
+            color: #333333;
+            width: 680px;
+        }
+        #moreInfo>div+div>img
+        {
+            width: 750px;
+        }
+        #moreInfo>div>h1+p+button
+        {
+            padding: 7px 12px;
+            border: transparent;
+            background-color: #3167FF;
+            font-size: 17px;
+            color: white;
+            font-family: sans-serif;
+            margin-top: 40px;
+        }
+
+        #footer
+        {
+            margin-top: 500px;
+            height: 200px;
+            width: 100%;
+            
+            background-color: #F7F7F7;
+            border-bottom: 2px solid #EBEBEB;
+        }
+        #footer>img
+        {
+            width: 13%;
+            margin: auto;
+        }
+        #final
+        {
+            display: flex;
+            width: 90%;
+            margin: auto;
+            margin-top: 250px;
+            
+        }
+        #final>div
+        {
+            height: 500px;
+            width: 25%;
+           
+           
+        }
+        #final>div>img
+        {
+            width: 115px;
+            margin-top: 25px;
+        }
+        #final>div>img+p
+        {
+            font-family: sans-serif;
+            font-size: 13px;
+            margin-top: 25px;
+        }
+        #final>div+div>p+p
+        {
+            line-height: 30px;
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+        #final>div+div>p
+        {
+            font-size: 18px;
+            font-family: sans-serif;
+
+        }
+        .image1>img
+        {
+            height: 16px;
+            width: 16px;
+        }
+        
+        
+
+        
+        
+
+       
